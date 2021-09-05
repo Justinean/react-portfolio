@@ -1,4 +1,4 @@
-import Link from '../navlinks/Link';
+import Link from '../link/Link';
 import React from 'react';
 import './navbar.css';
 
