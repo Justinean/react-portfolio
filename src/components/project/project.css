@@ -1,0 +1,86 @@
+.projectDiv {
+    margin-top: 20px;
+    width: 500px;
+    height: 250px;
+}
+
+.projectLink {
+    width: 500px;
+    height: 250px;
+    z-index: 2;
+}
+
+.layer {
+    width: 500px;
+    height: 250px;
+    background-color: #ffffff00;
+    z-index: 100;
+}
+
+.layer:hover {
+    animation: fadeIn 500ms linear;
+    background-color: #ffffff96;
+}
+
+.layer:hover > .text {
+    display: block;
+    animation: textFadeIn 500ms linear;
+    color: #000000be;
+}
+
+.project {
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    display: block;
+}
+
+.project > img {
+    position: absolute;
+    z-index: -1
+}
+
+.text {
+    display: none;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: #00000000;
+    width: fit-content;
+    z-index: 2;
+}
+
+.text h2 {
+    display: inline;
+    margin-right: 30px;
+}
+
+.text h2:hover {
+    cursor: pointer;
+}
+
+.text img:hover {
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    0% {background-color: #ffffff00;}
+    100% {background-color: #ffffff96;}
+}
+
+@keyframes textFadeIn {
+    0% {color: #00000000;}
+    100% {color: #000000be;}
+}
+
+@media only screen and (max-width: 500px) {
+    .projectDiv, .layer, .project > img, .projectLink, .project {
+        margin-left: 10px;
+        width: 350px;
+        height: 175px;
+    }
+    
+    .text {
+        top: 20px
+    }
+}
