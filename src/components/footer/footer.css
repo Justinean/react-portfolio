@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    min-width: 200px;
+}
+
+.images > img:hover {
+    cursor: pointer;
+}
+
