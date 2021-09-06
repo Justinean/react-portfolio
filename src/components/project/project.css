@@ -75,7 +75,6 @@
 
 @media only screen and (max-width: 500px) {
     .projectDiv, .layer, .project > img, .projectLink, .project {
-        margin-left: 10px;
         width: 350px;
         height: 175px;
     }
