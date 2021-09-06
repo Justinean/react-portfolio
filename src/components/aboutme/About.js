@@ -9,7 +9,7 @@ function About() {
                 I can create and maintain websites both on the front end, and back end. 
                 I am currently unemployed so I could focus more on my schooling. I stream and play games 
                 offline for fun. I have graduated from high school with honors at a 3.5 gpa. My skillset 
-                includes python, javascript, css, html, react, express and a couple other libraries</p>
+                includes python, javascript, css, html, react, express and a couple other libraries. </p>
         </div>
     )
 }
