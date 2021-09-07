@@ -8,7 +8,7 @@ function Resume() {
             <h2>Resume</h2>
             <br />
             <br />
-            <p>You can download my resume <a target="_blank" href="./resume.pdf">here</a></p>
+            <p>You can download my resume <a target="_blank" href="./resume.pdf">here</a>.</p>
             <br />
             <h3>Front-end Proficiencies</h3>
             <ul>
