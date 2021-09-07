@@ -74,11 +74,17 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .projectDiv, .layer, .project > img, .projectLink, .project {
-        width: 350px;
+    .projectDiv, .layer, .project > img, .projectLink {
+        width: 100%;
         height: 175px;
     }
-    
+
+    .project {
+        width: 94%;
+        height: 175px;
+        margin-left: 3%
+    }
+
     .text {
         top: 20px
     }
