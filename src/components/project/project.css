@@ -96,4 +96,8 @@
         height: 175px;
         margin-left: 3%;
     }
+
+    .text h2 {
+        font-size: 28px;
+    }
 }
