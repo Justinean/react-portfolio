@@ -16,11 +16,11 @@ This is a react portfolio for Justin Hoch.
 
 Go to this [link](https://justinean.github.io/react-portfolio/).
 
-![About me](./public/images/ss1.png)
+![About me](public/images/ss1.png)
 
-![Portfolio](./public/images/ss2.png)
+![Portfolio](public/images/ss2.png)
 
-![Resume](./public/images/ss3.png)
+![Resume](public/images/ss3.png)
 
 # License:
 
