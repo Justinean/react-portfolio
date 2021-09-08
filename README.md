@@ -8,7 +8,6 @@ This is a react portfolio for Justin Hoch.
 
 # Table of Contents:
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contact me](#contact-me)
