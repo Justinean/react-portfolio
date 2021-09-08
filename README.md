@@ -1,4 +1,4 @@
-# Workout-Tracker
+# React-Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -15,7 +15,7 @@ This is a react portfolio for Justin Hoch.
 
 # Usage:
 
-Go into the folder that you just cloned, open git bash or terminal, type "npm i", then run npm start and head to localhost:3000. Alternatively, you can just go [here](https://fit-track-appli.herokuapp.com/stats)
+Go to this [link](https://justinean.github.io/react-portfolio/).
 
 # License:
 
