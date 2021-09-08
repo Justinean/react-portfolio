@@ -16,6 +16,12 @@ This is a react portfolio for Justin Hoch.
 
 Go to this [link](https://justinean.github.io/react-portfolio/).
 
+![About me](/images/ss1.png)
+
+![Portfolio](/images/ss2.png)
+
+![Resume](/images/ss3.png)
+
 # License:
 
 This project is licensed under the MIT license, which you can read about [here](https://opensource.org/licenses/MIT).
