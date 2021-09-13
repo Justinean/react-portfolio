@@ -4,7 +4,11 @@ import './index.css';
 import App from './App';
 
 if (!window.location.href.endsWith("/")) {
-  window.location.href = "/react-portfolio";
+  if (window.location.origin === "https://justinean.github.io") {
+    window.location.href = "/react-portfolio";
+  } else {
+    window.location.href = "/"
+  }
 }
 
 ReactDOM.render(

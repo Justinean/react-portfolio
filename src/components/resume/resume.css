@@ -4,6 +4,14 @@
     font-size: 20px;
 }
 
+.resume li, .resume p, .resume h2, .resume h3 {
+    color: #ffffffc4;
+}
+
+.resume h2, .resume h3 {
+    font-weight: normal;
+}
+
 @media only screen and (max-width: 470px) {
     .resume {
         margin-left: 2%;

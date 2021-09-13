@@ -64,6 +64,10 @@
     cursor: pointer;
 }
 
+.layer:hover {
+    cursor: pointer;
+}
+
 @keyframes fadeIn {
     0% {background-color: #ffffff00;}
     100% {background-color: #ffffff96;}
