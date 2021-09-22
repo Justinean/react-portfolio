@@ -9,7 +9,7 @@ function Project({imageName, altTag, languages, name, link, repo}) {
                     <div className="text" onClick={() => window.open(link, "_blank")}>
                         <h2>{name}</h2>
                         <br />
-                        <img src="./images/github.png" alt="GitHub Cat" width="50px" height="50px" onClick={() => window.open(`https://github.com/Justinean/${repo}`, "_blank")} />
+                        <img src="./images/githubproject.png" alt="GitHub Cat" width="50px" height="50px" onClick={() => window.open(`https://github.com/Justinean/${repo}`, "_blank")} />
                         <p>{languages}</p>
                     </div>
                 </div>

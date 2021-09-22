@@ -19,7 +19,7 @@
 
 .layer:hover {
     animation: fadeIn 500ms linear;
-    background-color: #ffffff96;
+    background-color: #ffffffda;
 }
 
 .layer:hover > .text {
@@ -70,7 +70,7 @@
 
 @keyframes fadeIn {
     0% {background-color: #ffffff00;}
-    100% {background-color: #ffffff96;}
+    100% {background-color: #ffffffda;}
 }
 
 @keyframes textFadeIn {
