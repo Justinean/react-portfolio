@@ -39,8 +39,6 @@ function Navbar({ currentPage, handlePageChange }) {
                 
                 <Link currentPage={currentPage} handlePageChange={handlePageChange} displayName="Portfolio" locationName="portfolio" />
                 
-                <Link currentPage={currentPage} handlePageChange={handlePageChange} displayName="Contact" locationName="contact" />
-                
                 <Link currentPage={currentPage} handlePageChange={handlePageChange} displayName="Resume" locationName="resume" />
             </div>
         </div>

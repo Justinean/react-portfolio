@@ -23,8 +23,6 @@ function Prerender() {
                 return <About />
             case 'portfolio':
                 return <Portfolio />
-            case 'contact': 
-                return <Contact />
             case 'resume':
                 return <Resume />
             default:
