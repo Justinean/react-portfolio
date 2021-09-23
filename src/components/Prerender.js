@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import About from './aboutme/About';
-import Contact from './contact/Contact';
 import Footer from './footer/Footer';
 import Navbar from './navbar/Navbar';
 import Portfolio from './portfolio/Portfolio';
