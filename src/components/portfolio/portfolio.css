@@ -8,6 +8,27 @@
     flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 1670px) {
+    .portfolio {
+        margin-left: 15%;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1435px) {
+    .portfolio {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1255px) {
+    .portfolio {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     .portfolio {
         margin-left: 0px;

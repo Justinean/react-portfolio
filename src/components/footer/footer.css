@@ -6,8 +6,8 @@
 
 .images {
     display: flex;
-    justify-content: space-between;
-    width: 15%;
+    justify-content: space-around;
+    width: 20%;
     min-width: 200px;
 }
 
@@ -15,3 +15,38 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width: 1430px) {
+    .images {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    .images {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .images {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .images {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .images {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .images {
+        width: 100%;
+    }
+}

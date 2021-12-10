@@ -1,10 +1,10 @@
 import './project.css';
 
-function Project({imageName, altTag, languages, name, link, repo}) {
+function Project({ imageName, altTag, languages, name, link, repo, description}) {
     return (
-        <div className="projectDiv">
+        <div className={`projectDiv ${imageName}`}>
             <div className="project">
-                <img src={`./images/${imageName}.png`} alt={altTag} width="500px" height="250px"/>
+                <img src={`./images/${imageName}.png`} alt={altTag} width="500px" height="250px" />
                 <div className="layer" onClick={() => window.open(link, "_blank")}>
                     <div className="text" onClick={() => window.open(link, "_blank")}>
                         <h2>{name}</h2>
@@ -13,8 +13,8 @@ function Project({imageName, altTag, languages, name, link, repo}) {
                         <p>{languages}</p>
                     </div>
                 </div>
+                <h2 className="description">{description}</h2>
             </div>
-            
         </div>
     )
 }
