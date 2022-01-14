@@ -2,7 +2,7 @@ import './resume.css';
 
 function Resume() {
     let front = ["HTML", "CSS", "JavaScript", "JQuery", "Responsive Design", "React"]
-    let back = ["APIs", "Node", "Express", "MySQL", "Sequelize", "MongoDB", "Mongoose", "REST"]
+    let back = ["Node", "Express", "MySQL", "Sequelize", "MongoDB", "Mongoose", "RESTful APIs", "GraphQL APIs"]
     return (
         <div className="resume">
             <h2>Resume</h2>
